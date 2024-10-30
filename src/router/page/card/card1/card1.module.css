@@ -1,0 +1,136 @@
+.menu{
+    margin: 30px 120px 40px;
+}
+
+.section{
+    margin-left: 270px ;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-bottom: 70px;
+}
+
+
+.menu {
+    margin-bottom: 20px;
+}
+
+
+.mainImage {
+    margin-bottom: 20px;
+    img{
+        width: 650px;
+        height: 524px;
+        object-fit: cover;
+    }
+}
+
+.thumbnailList {
+    display: flex;
+    
+}
+
+.thumbnailList li {
+    cursor: pointer; 
+
+    img{
+        width: 158px;
+        height: 100px;
+        object-fit: cover;
+        margin-right: 6px;
+    }
+}
+
+.imagesprev{
+    position: absolute;
+
+    img{
+        background-color: white;
+        width: 37px;
+        height: 37px;
+        object-fit: cover;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+}
+
+.imgR{
+    left: 570px;
+    top: 250px;
+    position: relative;
+}
+
+.imgL{
+    top: 250px;
+    position: relative;
+    left: 7px;
+}
+
+.p_botom{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h3_botom{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+/* right  */
+.box{
+    display: flex;
+    width: 100%;
+    
+}
+.section2{
+    width: 523px;
+    margin-left: 120px;
+    font-family: sans-serif;
+
+    button{
+        width: 523px;
+        height: 59px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+}
+.pricetext{
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    height: 52px;
+    font:500;
+    font-size: 30px;
+    color: #2F424A;
+    s{
+        font-size: 24px;
+        margin-left: 20px;
+        text-decoration:line-through;
+    }
+    span{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        width: 52px;
+        color: white;
+        background-color: black;
+        margin-left: 20px;
+    }
+    
+}
+.btn1{
+    margin-top: 85px;
+    background-color: #F36E2E ;
+}
+.btn2{
+    margin-top: 15px;
+    background-color: #2F424A ;
+}
+.p_botw{
+    font-size: 14px;
+}

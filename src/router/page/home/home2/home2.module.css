@@ -1,0 +1,139 @@
+.section{
+    margin-top:724px;
+    h3{
+        width: 550px;
+        font-size: 36px;
+        height: 47px;
+        margin-bottom: 79px;
+    }
+   ul{
+    display: flex;
+    margin-bottom: 140px;
+
+    li{
+        width: 342px;
+        margin: 4px;
+
+        h4{
+            color: #2F424A;
+            span{
+                text-decoration:line-through;
+            }
+        }
+        h5{
+            color:black;
+        }
+        p{
+            position: relative;
+            top:-105px;
+            background-color: white;
+            width: 52px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 20px;
+        }
+
+        img{
+            width:100%;
+            height: 342px;
+            object-fit: cover;
+        }
+    }
+   }
+}
+
+.ul_button{
+    display: flex;
+    margin-bottom: -600px;
+    li{
+        width: 405px;
+        height: 577px;
+        margin: 10px;
+
+        img{
+            width: 100%;
+            height:520px ;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        button{
+            width: 405px;
+            background-color: #2F424A;
+            font-size: 26px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            height: 47px;
+        }
+    }
+}
+
+
+@media (max-width:450px){
+
+
+
+    .section{
+        margin:810px auto 0px;
+        h3{
+            width: 328px;
+            font-size: 18px;
+            height: 47px;
+            margin-bottom: 0;
+            margin-left: 30px;
+            margin-top: -130px;
+        }
+       ul{
+        display: flex;
+        margin-bottom: 140px;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        li{
+            width: 156px;
+            margin:0 4px 30px;
+            height: 244px;
+            
+            p{
+                top:-117px;
+                left: 10px;
+            }
+    
+            img{
+                height: 180px;
+                
+            }
+        }
+       }
+    }
+    .ul_button{
+        display: flex;
+        margin-bottom: -750px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+        li{
+            width: 328px;
+            height: 248px;
+            margin: 10px;
+    
+            img{
+                width: 100%;
+                height:200px ;
+                
+            }
+            button{
+                width: 328px;
+                
+                font-size: 13px;
+                color: white;
+                margin-top: 6px;
+                height: 40px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,52 @@
+.headerbot{
+    width: 1278px;
+    position: relative;
+    top: 35px;
+    align-items: center;
+    left:120px ;
+    
+    ul{
+        display: flex;
+
+        li{
+            height: 26px;
+            display: flex;
+            align-items: center;
+            margin-right: 28px;
+            
+
+            a{
+                font-size:20px ;
+                color: #2F424A;
+                font-family: IBM Plex Sans;
+            }
+            .active{
+                color: #F36E2E;
+            }
+        
+        }
+    }
+}
+@media(max-width:400px){
+    .headerbot{
+        width: 90%;
+        position: relative;
+        top: 140px;
+        align-items: center;
+        left:20px ;
+        right: 20px ;
+        overflow: scroll;
+        ul{
+           
+    
+            li{
+                height: 45px;
+                background-color: whitesmoke;
+                a{
+                    margin: 0 10px 0;
+                }
+            }
+}   .headerbot::-webkit-scrollbar{
+        display: none;
+}
+    }}
